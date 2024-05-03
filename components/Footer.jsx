@@ -22,7 +22,7 @@ const Footer = () => {
   useEffect(() => {
     const getData = async () => {
       const data = await fetch(
-        "https://api.github.com/repos/pranjalshikhar/portfolio-v3"
+        "https://api.github.com/repos/Estime229"
       ).then((res) => res.json());
       setMetaData({
         star: data.stargazers_count,
@@ -83,7 +83,7 @@ const Footer = () => {
         </Link>
       </div>
       <a
-        href="https://github.com/pranjalshikhar/portfolio-v3"
+        href="https://github.com/Estime229"
         target="blank"
         rel="noreferrer"
         className="flex flex-col text-center group hover:text-purple-800 w-max hover:font-black items-center text-gray-600 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-8 md:mt-12 font-syne"
