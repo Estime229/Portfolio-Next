@@ -1,9 +1,7 @@
 import Image from "next/image";
 import { TfiLinkedin, TfiTwitterAlt } from "react-icons/tfi";
 import Rectangle from "../public/Rectangle.svg";
-import { Tfi } from 'react-icons/tfi';
-import { Bs } from 'react-icons/bs';
-import { useTheme } from 'next-themes';
+
 const Contact = () => {
   return (
     <div className="h-max xl:px-12 lg:h-[22rem] p-6 sm:p-8 md:px-10 pt-32 md:pt-40 lg:pt-10 bg-gradient-to-tr dark:from-[#df51ad3e] dark:to-[#eb587d2a] from-[#f6ebeb90] to-[#fff8ec60] flex flex-col lg:flex-row mx-auto rounded-3xl shadow-md drop-shadow-2xl backdrop-blur-xl items-center justify-center lg:justify-between ">
@@ -35,7 +33,7 @@ const Contact = () => {
           >
             <TfiLinkedin className="text-[#CA6298] dark:text-[#ff339c] h-3 w-3 md:h-4 md:w-4 " />
             <h5 className="text-transparent dark:text-[#ff339c]">
-            estimeglitI
+            estimeglit
             </h5>
           </a>
         </div>
