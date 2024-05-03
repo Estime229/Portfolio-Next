@@ -16,7 +16,7 @@ const tech = () => {
     {
       title: "VS Code",
       id: 0,
-      main: "/icons/vscode-original.svg",
+      main: "./icons/vscode-original.svg",
       desc: "Best coding IDE to ever exist, comes with tons of customization",
       tag: "code",
       bg: "bg-blue-50",
@@ -25,7 +25,7 @@ const tech = () => {
     {
       title: "JavaScript",
       id: 1,
-      main: "/icons/javascript-original.svg",
+      main: "./icons/javascript-original.svg",
       desc: "A lightweight, interpreted, or just-in-time compiled programming language with first-class functions.",
       tag: "code",
       bg: "bg-yellow-50",
@@ -34,7 +34,7 @@ const tech = () => {
     {
       title: "TypeScript",
       id: 2,
-      main: "/icons/typescript-plain.svg",
+      main: "./icons/typescript-plain.svg",
       desc: "SuperScript of Javascript, made by microsoft with robust type safety.",
       tag: "code",
       bg: "bg-blue-50",
@@ -43,7 +43,7 @@ const tech = () => {
     {
       title: "React JS",
       id: 3,
-      main: "/icons/react-original.svg",
+      main: "./icons/react-original.svg",
       desc: "A free and open-source front-end JavaScript library for building user interfaces based on components",
       tag: "develop",
       bg: "bg-blue-50",
@@ -52,7 +52,7 @@ const tech = () => {
     {
       title: "Next JS",
       id: 4,
-      main: "/icons/nextjs-original.svg",
+      main: "./icons/nextjs-original.svg",
       desc: "An open-source web development framework providing React-based web applications.",
       tag: "develop",
       bg: "bg-gray-900",
@@ -61,7 +61,7 @@ const tech = () => {
     {
       title: "Tailwind CSS",
       id: 5,
-      main: "/icons/tailwindcss-plain.svg",
+      main: "./icons/tailwindcss-plain.svg",
       desc: "A utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
       tag: "design",
       bg: "bg-green-50",
@@ -70,7 +70,7 @@ const tech = () => {
     {
       title: "Material UI",
       id: 6,
-      main: "/icons/materialui-original.svg",
+      main: "./icons/materialui-original.svg",
       desc: "A comprehensive suite of UI tools to help you ship new features faster.",
       tag: "develop",
       bg: "bg-indigo-50",
@@ -79,7 +79,7 @@ const tech = () => {
     {
       title: "SASS",
       id: 7,
-      main: "/icons/sass-original.svg",
+      main: "./icons/sass-original.svg",
       desc: "CSS with superpowers. The most powerful professional grade CSS extension language in the world.",
       tag: "design",
       bg: "bg-pink-300",
@@ -88,7 +88,7 @@ const tech = () => {
     {
       title: "Notion",
       id: 8,
-      main: "/notion-icon.svg",
+      main: "./notion-icon.svg",
       desc: "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team.",
       tag: "productivity",
       bg: "bg-gray-900",
@@ -97,7 +97,7 @@ const tech = () => {
     {
       title: "Figma",
       id: 9,
-      main: "/icons/figma-original.svg",
+      main: "./icons/figma-original.svg",
       desc: "A boon for webapp designers, from wireframe to animation, it has it all.",
       tag: "design",
       bg: "bg-orange-500",
@@ -106,7 +106,7 @@ const tech = () => {
     {
       title: "GitHub",
       id: 10,
-      main: "/icons/github-original.svg",
+      main: "./icons/github-original.svg",
       desc: "A developer's go-to platform for collaborating and showcasing their code.",
       tag: "platform",
       bg: "bg-gray-900",
@@ -115,7 +115,7 @@ const tech = () => {
     {
       title: "Brave",
       id: 11,
-      main: "/brave-icon.svg",
+      main: "./brave-icon.svg",
       desc: "A privacy focused browser used to block ads and extra pops.",
       tag: "platform",
       bg: "bg-orange-500",
