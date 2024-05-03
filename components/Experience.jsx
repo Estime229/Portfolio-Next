@@ -1,5 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Tfi } from 'react-icons/tfi';
+import { Bs } from 'react-icons/bs';
+import { useTheme } from 'next-themes';
 import { useTheme } from "next-themes";
 
 import { BsArrowUpRight } from "react-icons/bs";
