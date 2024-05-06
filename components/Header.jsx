@@ -8,7 +8,7 @@ import Link from "next/link";
 
 import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
 
-import next from "@/public/next.svg";
+import next from "@/public/Estime.png";
 
 const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();

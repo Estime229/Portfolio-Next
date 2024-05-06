@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import aizen from "@/public/work/aizen.jpg";
-import kamui from "@/public/work/kamui.jpg";
+import aizen from "@/public/NOLIDO.png";
+import kamui from "@/public/coders.png";
 import pokedex from "@/public/work/pokedex.jpg";
 import portfolio from "@/public/work/portfolio.jpg";
 import cryptohunter from "@/public/work/crypto-hunter.jpg";
@@ -16,27 +16,13 @@ const ProjectCard = () => {
     {
       id: 1,
       image: aizen,
-      title: "Aizen",
-      description: "Create beautiful images and gifs of your source code",
-      link: "https://aizen.netlify.app/",
+      title: "NOLIDO",
+      description: "Finis les problemes de transfert d'argent",
+      link: "https://estime229.github.io/NOLIDO/",
       target: "_self",
     },
-    {
-      id: 2,
-      image: kamui,
-      title: "Kamui",
-      description: "Kanban board for planner with superpowers",
-      link: "https://kamui-kanban.netlify.app/",
-      target: "_self",
-    },
-    {
-      id: 3,
-      image: pokedex,
-      title: "Pokedex",
-      description: "Gotta Catch'em All. Explore your Pokemon",
-      link: "https://pokedex-polly.netlify.app/",
-      target: "_self",
-    },
+ 
+  
     {
       id: 4,
       image: evo,
@@ -53,14 +39,7 @@ const ProjectCard = () => {
       link: "https://nikestore-polly.netlify.app/",
       target: "_blank",
     },
-    {
-      id: 6,
-      image: notion,
-      title: "Potion",
-      description: "Connected workspace where better, faster work happens.",
-      link: "https://potion-write.vercel.app/",
-      target: "_blank",
-    },
+  
     {
       id: 7,
       image: portfolio,
@@ -77,14 +56,16 @@ const ProjectCard = () => {
       link: "https://crytocurrencyhunter.netlify.app/",
       target: "_self",
     },
+
     {
-      id: 9,
-      image: redeye,
-      title: "Red Eye",
-      description: "Question based website to know your movie genre",
-      link: "https://red-eye.netlify.app/",
+      id: 2,
+      image: kamui,
+      title: "Kamui",
+      description: "Apprends plus rapidement et plus sainement",
+      link: "https://kamui-kanban.netlify.app/",
       target: "_self",
     },
+  
   ];
 
   return (
