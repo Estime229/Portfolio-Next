@@ -62,7 +62,7 @@ const ProjectCard = () => {
       image: kamui,
       title: "Kamui",
       description: "Apprends plus rapidement et plus sainement",
-      link: "https://kamui-kanban.netlify.app/",
+      link: "https://estime229.github.io/reactMonkey",
       target: "_self",
     },
   
